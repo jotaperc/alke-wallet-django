@@ -1,0 +1,24 @@
+:root {
+    --azul-fintech: #004a99;
+    --verde-exito: #28a745;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background-color: var(--azul-fintech);
+    border: none;
+}
+
+.text-primary {
+    color: var(--azul-fintech) !important;
+}
