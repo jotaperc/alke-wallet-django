@@ -17,4 +17,4 @@ El objetivo principal fue transicionar de una interfaz estática a una plataform
 - **Eficiencia:** Optimización de consultas al modelo mediante el ORM, reduciendo la carga de lógica en las plantillas.
 
 ---
-*Proyecto desarrollado como caso de estudio para el Bootcamp de Desarrollo Python.*
+*Proyecto desarrollado como caso de estudio para el Bootcamp de DESARROLLO DE APLICACIONES FULLSTACK PYTHON TRAINEE. SENCE*
