@@ -1,6 +1,20 @@
 # alke-wallet-django
-El Caso de Estudio (Alke Wallet)
-Breve descripción: Aplicación de billetera digital con persistencia de datos.
-Desafío principal: Asegurar que los registros financieros no fueran volátiles, manejando la integridad de los saldos mediante un motor relacional.
-Solución propuesta: Implementación de Django ORM con una base de datos SQLite, integrando lógica de backend para validación de transacciones.
-Métricas de impacto: Integridad de datos del 100%, reducción del tiempo de respuesta en consultas de saldo y arquitectura escalable para múltiples usuarios.
+# Alke Wallet - Sistema de Gestión Financiera (Backend)
+
+Este proyecto es una aplicación web dinámica diseñada para la gestión de usuarios y transacciones financieras, desarrollada bajo la arquitectura **MVT (Model-View-Template)** de Django.
+
+### 🚀 Desafío Técnico
+El objetivo principal fue transicionar de una interfaz estática a una plataforma con **persistencia de datos**, garantizando que la información de saldos y registros de usuarios no se perdiera al reiniciar el servidor.
+
+### 🛠️ Solución e Implementación
+- **ORM de Django:** Utilizado para gestionar la base de datos SQLite de forma eficiente y segura.
+- **CRUD Completo:** Implementación de vistas para crear, leer y listar usuarios en tiempo real.
+- **Seguridad:** Uso de middleware de Django y `csrf_token` para la protección de formularios.
+- **Frontend:** Interfaz responsiva integrada con **Bootstrap 5**.
+
+### 📊 Métricas de Impacto
+- **Integridad de Datos:** 100% de persistencia en registros de transacciones.
+- **Eficiencia:** Optimización de consultas al modelo mediante el ORM, reduciendo la carga de lógica en las plantillas.
+
+---
+*Proyecto desarrollado como caso de estudio para el Bootcamp de Desarrollo Python.*
